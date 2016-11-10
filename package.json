@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --config webpack.config.js --inline",
+    "deploy": "webpack -p --config webpack.config.production.js"
   },
   "author": "",
   "license": "ISC",
